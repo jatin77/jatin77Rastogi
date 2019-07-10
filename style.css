@@ -1,0 +1,437 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Imprima', sans-serif !important;
+  background: #f2f2f2 !important;
+}
+
+/*---------------variables-----------------*/
+:root {
+  --color-main: #1541b7;
+  --color-royal: #4169e1;
+  --color-dark: #1a1a1a;
+}
+
+/*-------------NAVIGATION---------------------------*/
+.navbar .navbar-toggler {
+  outline: none !important;
+  border: none !important;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.navbar {
+  margin: 0 auto !important;
+  width: 100% !important;
+  border-bottom: 1px solid #a9a9a9;
+  background: #f2f2f2;
+}
+
+.navbar-brand a {
+  display: block !important;
+
+}
+
+.logo-sm {
+  font-size: 13px;
+  color: var(--color-royal);
+
+}
+
+a.nav-link {
+  font-size: 18px !important;
+}
+
+/*-------------------home--------text---------------------*/
+.home-text {
+  margin-top: 30%;
+}
+
+.home-text h1 {
+  font-size: 3.2em;
+  color: var(--color-dark);
+}
+
+.home-text .work {
+  background: var(--color-main);
+  color: #f8f8ff;
+  text-decoration: none;
+  padding: 10px 32px;
+  margin-top: 1em;
+  display: inline-block;
+  border-radius: 4px;
+  transition: 0.1s;
+}
+
+.home-text .work:hover {
+  background: var(--color-royal);
+}
+
+.home-text ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  margin-top: 10em;
+}
+
+.home-text ul li {
+  width: 60px;
+}
+
+.home-text ul li a {
+  color: var(--color-main);
+  display: inline-block;
+
+  transform: scale(1);
+}
+
+.home-text ul li a:hover {
+  color: var(--color-royal);
+  transform: scale(1.2);
+}
+
+/*-------------------------------works-------------------------*/
+#work {
+  padding: 100px 0;
+}
+
+#work .content h2 {
+  padding-bottom: 80px;
+  color: var(--color-dark);
+}
+
+#work .content .card-text ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+}
+
+#work .content .card-text ul li {
+  /* width: 33.3%; */
+  text-align: center;
+}
+
+#work .content .card-text ul li a {
+  text-decoration: none;
+  color: var(--color-main);
+}
+
+#work .content .card-text ul li a:hover {
+  color: var(--color-royal);
+}
+
+#work .card {
+  transform: scale(0.98);
+  transition: transform 0.5s;
+}
+
+#work .card:hover {
+  transform: scale(1);
+}
+
+/*--------------about--------------*/
+
+#about {
+  padding: 100px 0;
+}
+
+#about h2 {
+  color: var(--color-dark);
+}
+
+.me {
+  padding-bottom: 100px;
+}
+
+#about .me h2 {
+  padding-bottom: 80px;
+}
+
+#about img {
+  width: 200px;
+  height: 200px;
+
+  border-radius: 50%;
+}
+
+.about-me-content p {
+  margin: 1.5em 0;
+}
+
+.about-me-content h3 {
+  color: var(--color-dark);
+}
+
+.about-me-content {
+  padding: 0em 3em;
+}
+
+.about-me-content ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+}
+
+.about-me-content ul li {
+  width: 40px;
+}
+
+.about-me-content ul li a {
+  text-decoration: none;
+}
+
+.about-me-content .fa {
+  color: var(--color-main);
+  font-size: 22px;
+}
+
+.about-me-content .fa:hover {
+  color: var(--color-royal);
+  transform: scale(1.2);
+}
+
+/*--------------skills---------------------*/
+.skills h3,
+.skills h4 {
+  color: var(--color-dark);
+}
+
+.skills h4 {
+  padding-bottom: 15px;
+}
+
+.skills ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills .row {
+  margin-top: 5em;
+}
+
+.skills .skill-head {
+  margin-top: 2em;
+}
+
+/*-----------------contact-----------------*/
+
+#contact .row {
+  margin-top: 5em;
+}
+
+#contact {
+  padding-top: 100px;
+}
+
+.contact-content {
+  padding: 6em 1em;
+}
+
+.contact-content h2 {
+  margin-bottom: 2em;
+}
+
+.send-message {
+  padding: 0 30px;
+}
+
+/*FOOTER*/
+footer {
+  background: #fff;
+  border-top: 1px solid #a9a9a9;
+  margin-top: 10em;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  margin-top: 10px !important;
+}
+
+footer ul li a .fa {
+  font-size: 20px;
+}
+
+footer ul li {
+  width: 40px;
+}
+
+footer ul li a {
+  color: #4169e1;
+  display: inline-block;
+  transform: scale(1);
+}
+
+footer ul li a:hover {
+  color: var(--color-main);
+  transform: scale(1.1);
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .pull-left {
+  padding: 0.5em 0;
+}
+
+footer .pull-right {
+  text-align: right;
+}
+
+.border {
+  margin: 60px 0;
+}
+
+/*---------------------------------------------FORM*/
+.form-text {
+  margin-bottom: 100px !important;
+}
+
+.form-text h2 {
+  text-align: center;
+}
+
+.form-text p {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+form input {
+  width: 70% !important;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  margin-bottom: 30px !important;
+}
+
+form button {
+  outline: none !important;
+  border: none !important;
+  color: #f8f8ff !important;
+  background: var(--color-main) !important;
+}
+
+form button:hover {
+  background: var(--color-royal) !important;
+}
+
+/*-----------------------------FOOTER*/
+.footer-content ul {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px !important;
+}
+
+
+
+footer {
+  background: #f2f2f2;
+}
+
+.footer-content ul li .fa {
+  color: var(--color-main);
+}
+
+.footer-content ul li:hover .fa {
+  color: var(--color-royal);
+}
+
+.footer-email {
+  color: var(--color-royal);
+}
+
+@media (max-width: 768px) {
+  .home-text h1 {
+    font-size: 2.6em;
+    color: var(--color-dark);
+  }
+}
+
+@media (max-width: 500px) {
+  .home-text h1 {
+    font-size: 2em;
+    color: var(--color-dark);
+  }
+
+  .home-text {
+    margin-top: 40%;
+  }
+
+  .home-text .work {
+    padding: 10px 20px;
+    margin-top: 1em;
+    display: inline-block;
+    border-radius: 4px;
+    transition: 0.1s;
+  }
+
+  .home-text ul li {
+    width: 50px;
+  }
+
+  #work .content h2 {
+    padding-bottom: 40px;
+  }
+
+  #about .me h2 {
+    padding-bottom: 40px;
+  }
+
+  #about img {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+  }
+
+  .about-me-content {
+    padding: 0em 0em;
+    padding-top: 1em;
+  }
+
+  .about-me-content h3 {
+    font-size: 23px;
+  }
+
+  .about-me-content h5 {
+    font-size: 19px;
+  }
+
+  .me {
+    padding-bottom: 40px;
+  }
+
+  .skills .row {
+    margin-top: 3em;
+  }
+
+  #contact .row {
+    margin-top: 0em;
+  }
+
+  .contact-content {
+    padding: 3em 1em;
+  }
+
+  footer {
+    margin-top: 5em;
+  }
+}

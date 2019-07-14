@@ -32,13 +32,11 @@ html {
 
 .navbar-brand a {
   display: block !important;
-
 }
 
 .logo-sm {
   font-size: 13px;
   color: var(--color-royal);
-
 }
 
 a.nav-link {
@@ -340,8 +338,6 @@ form button:hover {
   margin-top: 5px !important;
 }
 
-
-
 footer {
   background: #f2f2f2;
 }
@@ -363,6 +359,9 @@ footer {
     font-size: 2.6em;
     color: var(--color-dark);
   }
+  .home-text ul{
+    margin-top:7rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -382,7 +381,10 @@ footer {
     border-radius: 4px;
     transition: 0.1s;
   }
-
+  .home-text ul{
+    margin-top:4rem;
+  }
+}
   .home-text ul li {
     width: 50px;
   }

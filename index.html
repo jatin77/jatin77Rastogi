@@ -7,21 +7,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jatin Rastogi</title>
+
   <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
     crossorigin="anonymous">
   <link rel="shortcut icon" href="https://codemaven.one/wp-content/uploads/2019/01/lease-development-icon@3x.png" type="image/x-icon"/>
   <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-  <div class="container">
+  <!-- <div class="container"> -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <a class="navbar-brand" href="#contact"><b>Jatin Rastogi</b><br><small
+      <a class="navbar-brand animated fadeInLeft delay-1.5s" href="#contact"><b>Jatin Rastogi</b><br><small
           class="logo-sm">clockstopfountain@gmail.com</small></br></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +33,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav ml-auto animated fadeInRight delay-1.5s">
           <li class="nav-item">
             <a class="nav-link" href="#">Home</a>
           </li>
@@ -42,17 +46,19 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
+          <div class="bubble"></div>
         </ul>
 
       </div>
     </nav>
     <!------------------------home page---main text-->
-    <div class="home-text">
-      <h1>Hi, I'm <b>Jatin Rastogi</b> & I'm a Frontend developer.</h1>
-      <p>I specialized in developing World Wide Web content and creating amazing content for my users.I love to
+    <div class="container">
+    <section class="home-text" id="home">
+      <h1 class="animated fadeInDown delay-1.5s">Hi, I'm <b>Jatin Rastogi</b> & I'm a Frontend developer.</h1>
+      <p class="animated fadeInDown delay-1.5s">I specialized in developing World Wide Web content and creating amazing content for my users.I love to
         influence and inspire the world from my work.</p>
-      <a href="#work" class="work">Discover my work</a>
-      <ul>
+      <a href="#work" class="work animated fadeInDown delay-1.5s">Discover my work</a>
+      <ul class="animated fadeInDown delay-1.5s">
         <li><a href="https://github.com/jatin77"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
         <li><a href="https://www.linkedin.com/in/jatin-rastogi-27008b164/"><i class="fa fa-linkedin fa-2x"
               aria-hidden="true"></i></a></li>
@@ -60,16 +66,17 @@
         <li><a href="#contact"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
       </ul>
      
-    </div>
-   
+    </section>
+</div>
     <!---------------------------works-------------------->
-    <div id="work">
+    <div class="container">
+    <section id="work">
       <div class="content">
         <h2><b>My Work</b></h2>
         <!----------------------------ROW ONE-------------->
         <div class="row">
-          <div class="col-md-4">
-            <div class="card">
+          <div class="col-md-4" data-aos="fade-up">
+            <div class="card" >
               <img src="vueMovies.png" class="card-img-top" alt="">
               <div class="card-body">
                 <h5 class="card-title"><b>vueMovies</b></h5>
@@ -90,7 +97,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="card">
               <img src="discoveri.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -112,7 +119,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="card">
               <img src="layers.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -139,7 +146,7 @@
         <br><br>
         <!-------------------------------ROW TWO---------->
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="card">
               <img src="music.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -161,7 +168,7 @@
             </div>
             
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-up">
             <div class="card">
               <img src="blogCRUD.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -184,7 +191,7 @@
               </div>
             </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" data-aos="fade-up">
               <div class="card">
                 <img src="daysInDehradun.png" class="card-img-top" alt="">
                 <div class="card-body">
@@ -206,13 +213,13 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </section>
     </div>
+    <!-- </div> -->
     <hr class="border">
     <!-------------------about me---------------------->
     <div class="container">  
-    <div id="about">
+    <section id="about">
       <div class="me">
         <h2><b>About me</b></h2>
         <div class="row d-flex align-items-center">
@@ -267,10 +274,12 @@
           </div>
         </div>
       </div>
+    </section>
     </div>
     <hr class="border">
     <!-----------------contact--------------->
-    <div id="contact">
+    <div class="container">
+    <section id="contact">
       <h2><b>Get in touch with me</b></h2>
       <div class="row">
         <div class="contact-content col-xs-12 col-sm-12 col-md-6 col-lg-6">
@@ -308,7 +317,8 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
+</div>
     <footer>
       <div class="footer-content">
         <div class="text-center">
@@ -325,15 +335,17 @@
         </div>
       </div>
     </footer>
-  </div>
+
 </div>
   <!--------------------------------SCRIPT------------------->
   <script type="text/javascript">
+    AOS.init();
     $(document).ready(function () {
+
+        
+
+        // Form Submit
       $(".submit").click(function (e) {
-
-
-
         var name = $("#name").val()
         var email = $("#email").val()
         var msg = $("#msg").val()

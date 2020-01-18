@@ -5,6 +5,11 @@ html {
   font-family: 'Imprima', sans-serif !important;
   background: #f2f2f2 !important;
 }
+.bubble{
+    position: absolute;
+    z-index: -2;
+    background-color: aqua;
+}
 
 /*---------------variables-----------------*/
 :root {
@@ -45,7 +50,7 @@ a.nav-link {
 
 /*-------------------home--------text---------------------*/
 .home-text {
-  margin-top: 25%;
+  padding-top: 25%;
 }
 
 .home-text h1 {
@@ -371,7 +376,7 @@ footer {
   }
 
   .home-text {
-    margin-top: 40%;
+    padding-top: 40%;
   }
 
   .home-text .work {
@@ -384,7 +389,7 @@ footer {
   .home-text ul{
     margin-top:4rem;
   }
-}
+
   .home-text ul li {
     width: 50px;
   }

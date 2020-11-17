@@ -162,6 +162,7 @@ a.nav-link {
 #work .card {
   transform: scale(0.98);
   transition: transform 0.5s;
+  height: 100%;
 }
 
 #work .card:hover {
@@ -501,7 +502,7 @@ footer {
 
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 40px 30px 10px 30px;
+  /* padding: 40px 30px 10px 30px; */
 }
 
 .timeline-item:nth-child(even) .timeline-content::after {
